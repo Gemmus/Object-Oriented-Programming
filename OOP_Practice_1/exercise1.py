@@ -1,5 +1,5 @@
 class Customer:
-    def __init__(self, name, membership_type):
+    def __init__(self, name, membership_type):  # def __init__ called initializer or constructor, parameters are passed
         self.name = name
         self.membership_type = membership_type
         print("customer created")
