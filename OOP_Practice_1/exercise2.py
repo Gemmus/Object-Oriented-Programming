@@ -23,6 +23,9 @@ class Customer:
 
         return False
 
+    __hash__ = None
+    __repr__ = __str__
+
 
 customer = [Customer("Caleb", "Gold"),
             Customer("Alisa", "Silver"),
@@ -48,3 +51,5 @@ print(customer[4])
 Customer.print_all(customer)
 
 print(customer[7] == customer[9])
+
+print(customer)
