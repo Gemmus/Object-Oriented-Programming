@@ -11,5 +11,5 @@ class Item:
 item1 = Item("Phone", 100, 5)
 item2 = Item("Laptop", 1000, 3)
 
-print(f'Total value of Phone : {item1.calculate_total_price()}')
-print(f'Total value of Laptop: {item2.calculate_total_price()}')
+print(f'Total value of {item1.name} : {item1.calculate_total_price()}')
+print(f'Total value of {item2.name}: {item2.calculate_total_price()}')
