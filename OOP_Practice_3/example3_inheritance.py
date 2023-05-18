@@ -31,7 +31,7 @@ class Designer(Employee):
         print(f"{self.name} is drawing...")
 
 
-se = SoftwareEngineer("Paul", 35, "senior", 9000)
+se = SoftwareEngineer("Paul", 35, 9000, "senior")
 se.work()
 se.debug()
 d = Designer("Philip", 25, 5000)
