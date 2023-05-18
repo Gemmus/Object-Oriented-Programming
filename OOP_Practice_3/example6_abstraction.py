@@ -1,6 +1,6 @@
 # Abstraction:
 # - natural extension of encapsulation
-# - each object should only expose a higher level mechanism for using it
+# - each object should only expose a high-level mechanism for using it
 # - should hide internal implementation details
 # - should only reveal the operations relevant to the other objects
 
